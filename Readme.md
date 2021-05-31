@@ -2,7 +2,7 @@
 
 The Clinical Surrogate Generation System replaces privacy-sensitive information by synthetically generated surrogates
 (e.g., a person originally named 'Tina Smith' is renamed to 'Christa Meyer').
-For further information see our [paper](https://pubmed.ncbi.nlm.nih.gov/34042748/).
+For further information see our [paper (Pseudonymization of PHI Items in German Clinical Reports, MIE 2021)](https://pubmed.ncbi.nlm.nih.gov/34042748/).
 This system is derivated from Elisabeth Eders Surrogate Generation System from
 [https://github.com/ee-2/SurrogateGeneration](https://github.com/ee-2/SurrogateGeneration) and
 ["De-Identification of Emails: Pseudonymizing Privacy-Sensitive Data in a German Email Corpus (Eder et al., RANLP 2019)"](https://www.aclweb.org/anthology/R19-1030/).
