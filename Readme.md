@@ -10,7 +10,7 @@ This system is derivated from Elisabeth Eders Surrogate Generation System from
 ## Installation
 * create a virtual environment
 * Python 3
-* spaCy (Version 2.3.4) and German language modul
+* spaCy (Version 2.3.4 or 3.0.5) and [German language modul](https://spacy.io/usage/models) 
 * Python packages:
   * python-dateutil
   * python-Levenshtein
@@ -103,6 +103,18 @@ Functions for a different treatment of a specific language-dependent category wi
 If you use or extend the Clincial Surrogate Generation System please cite:
 
 ```
+@inproceedings {Eder19,
+	author = {Eder, Elisabeth and Krieg-Holz, Ulrike and Hahn, Udo},
+	title = {De-identification of emails: pseudonymizing privacy-sensitive data in a {German} email corpus},
+	booktitle = {Proceedings of the International Conference Recent Advances in Natural Language Processing, RANLP 2019. Varna, Bulgaria, 2-4 September, 2019},
+	year = {2019},
+	publisher = {Incoma Ltd.},
+	pages = {259--269},
+	editor = {Angelova, Galia and Mitkov, Ruslan and Nikolova, Ivelina and Temnikova, Irina},
+    url = {https://www.aclweb.org/anthology/R19-1030},
+    doi = {10.26615/978-954-452-056-4_030},
+}
+
 @inproceedings {Lohr21,
 	author = {Lohr, Christina and Eder, Elisabeth and Hahn, Udo},
 	title = {Pseudonymization of PHI Items in German Clinical Reports},
@@ -115,4 +127,5 @@ If you use or extend the Clincial Surrogate Generation System please cite:
     url = {https://ebooks.iospress.nl/doi/10.3233/SHTI210163},
     doi = {10.3233/SHTI210163},
 }
+
 ```
